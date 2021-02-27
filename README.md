@@ -1,2 +1,1 @@
-# rsschool-cv
-##[My CV](https://Alex-Kalanda.github.io/rsschool-cv/cv)
+[##My CV](https://Alex-Kalanda.github.io/rsschool-cv/cv)
