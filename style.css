@@ -1,0 +1,25 @@
+body {
+    display: flex;
+}
+
+
+.main {
+    max-width: 60%;
+    margin: 25px auto;
+    padding: 20px 40px;
+    display: flex;
+    flex-direction: column;
+    background-color: rgba(209,218,218,0.3);
+    font-size: 18px;
+}
+.capture_name {
+    border-bottom: black 2px solid;
+    background-color: cadetblue;
+}
+h3 {
+    border-bottom: grey 3px solid;
+
+}
+.aboutMe{
+    color: red;
+}
