@@ -15,3 +15,12 @@ javascript by performing test tasks, to deepen my knowledge in this area,
 and also to develop softskills. I love learning, I have been learning all my life  
 and I believe that only by learning something new for myself, 
 a person grows as a person.
+---
+###Skils
++ JavaScript
++ Git / GitHub
++ HTML 5
++ CSS 3
++ React.js
++ Redux.js
+---
