@@ -1,9 +1,9 @@
-#Kalanda Aliaksandr  
+  # Kalanda Aliaksandr  
 
 *Junior frontend developer*  
 
 ---
-###Personal information  
+  ### Personal information  
 
 **Phone number:**    +375(29)2163781  
 **Date of birth:**   20/11/87  
@@ -12,7 +12,7 @@
 
 ---  
 
-###About me  
+  ### About me  
 
 An aspiring frontend developer who is ready and able to learn. 
 My goal at this stage is to gain experience in working with git, 
@@ -23,7 +23,7 @@ a person grows as a person.
 
 ---  
 
-###Skils  
+  ### Skils  
 
 + JavaScript
 + Git / GitHub
@@ -32,7 +32,7 @@ a person grows as a person.
 + React.js
 + Redux.js
 ---
-###Code examples  
+  ### Code examples  
 
 [Link to my GitHub - account ](https://github.com/Alex-Kalanda )  
 Also as an example, the solution of kata on codevars  
@@ -44,7 +44,7 @@ Also as an example, the solution of kata on codevars
         
 ---  
    
-###Experience  
+  ### Experience  
 
 + **sep - nov 2020**: courses at UNSCHOOLER on html/css, within which I made the 5 layouts. 
 Example of one of them [UnschoolerProj](https://alex-kalanda.github.io/Unschooler_proj/)  
@@ -53,7 +53,7 @@ Example of one of them [UnschoolerProj](https://alex-kalanda.github.io/Unschoole
 
 ---  
 
-###Education  
+  ### Education  
 
 + **2004-2008:** Novopolotsk State Polytechnic College (Chemical Technology)
 + **2008-2014:** Polotsk State University (Chemical Technology)
