@@ -24,3 +24,27 @@ a person grows as a person.
 + React.js
 + Redux.js
 ---
+###Code examples
+[Link to my GitHub - account ](https://github.com/Alex-Kalanda )  
+Also as an example, the solution of kata on codevars
+
+    function isPalindrome(line) {
+      line += ''
+      return line === line.split('').reverse().join('');
+    }
+---    
+###Experience
++ **sep - nov 2020**: courses at UNSCHOOLER on html/css, within which I made the 5 layouts. 
+Example of one of them [UnschoolerProj](https://alex-kalanda.github.io/Unschooler_proj/)  
++ **dec 2020 - present days:** js + react/redux (with a mentor from Unschooler) 
+[current work](https://github.com/Alex-Kalanda/Dog_social_net)
+---
+###Education
++ **2004-2008:** Novopolotsk State Polytechnic College (Chemical Technology)
++ **2008-2014:** Polotsk State University (Chemical Technology)
++ **2017-2020:** self-study 3D-modeling, reverse engineering, additive technologies
++ **2020-present days:** frontend dev in Unschooler
++ **2021-present days:** js course in RSschool
+---
+###English
+A2 (Elementary)
