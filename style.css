@@ -1,10 +1,15 @@
 body {
     display: flex;
+    font-family: "Calibri";
 }
-
-
+ul li {
+    margin-bottom: 10px;
+}
+a {
+    color: #5d7fa7;
+}
 .main {
-    max-width: 60%;
+    max-width: 800px;
     margin: 25px auto;
     padding: 20px 40px;
     display: flex;
@@ -14,12 +19,21 @@ body {
 }
 .capture_name {
     border-bottom: black 2px solid;
-    background-color: cadetblue;
 }
 h3 {
     border-bottom: grey 3px solid;
+}
+.personal-about-avatar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
 
 }
-.aboutMe{
-    color: red;
+.avatar {
+    width: 50%
+}
+.avatar img {
+    width: 250px;
+    margin-left: 50px;
+    margin-top: 20px;
 }
