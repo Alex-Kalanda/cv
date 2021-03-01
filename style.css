@@ -7,7 +7,9 @@ ul li {
 }
 a {
     color: #5d7fa7;
-}
+}p {
+    text-indent: 20px;
+ }
 .main {
     max-width: 800px;
     margin: 25px auto;
@@ -18,9 +20,10 @@ a {
     font-size: 18px;
 }
 .capture_name {
+    font-size: 40px;
     border-bottom: black 2px solid;
 }
-h3 {
+h2 {
     border-bottom: grey 3px solid;
 }
 .personal-about-avatar {
@@ -32,10 +35,9 @@ h3 {
 .avatar {
     margin-left: 50px;
     margin-top: 45px;
-    border-radius: 10px;
 }
 .avatar img {
-    width: 250px;
+    width: 280px;
     border-radius: 10px;
 }
 .code-block {
@@ -47,3 +49,31 @@ h3 {
 .code-block pre {
     margin-left: -65px;
 }
+.english-block {
+    margin-bottom: 30px;
+}
+.footer {
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
+    justify-content: space-between;
+    padding-top: 20px;
+}
+.footer-logos {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding-top: 20px;
+    margin-right: 40px;
+}
+.logo_github_img {
+    width: 100px;
+    margin-right: 20px;
+}
+.logo_rsschool_img {
+    width: 80px;
+    margin-right: 20px;
+}
+.logo_youtube_img {
+     width: 43px;
+ }
