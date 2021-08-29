@@ -1,0 +1,128 @@
+.body {
+    box-sizing: content-box;
+    width: 1000px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: auto;
+    font-family: -webkit-pictograph, serif;
+}
+.header {
+    width: 100%;
+    background-color: #313131;
+    color: white;
+}
+.header__content {
+    margin: 20px 0 20px 500px;
+}
+.avatar {
+    /*padding-top: 10px;*/
+    width: 100%;
+}
+.avatar img {
+    width: 100%;
+}
+figure {
+    margin: 0;
+}
+.main {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+}
+.side-block__container {
+    margin-top: -270px;
+    margin-left: 50px;
+    padding: 40px;
+    width: 300px;
+    height: 1270px;
+    background-color: #ffc809;
+}
+.side-block {
+    z-index: 5;
+}
+.main-block__container {
+    padding-left: 70px;
+    padding-right: 40px;
+
+}
+.h2 {
+    margin-top: 50px;
+}
+.h2_yellowBG {
+    background-color: rgba(236,229,59,0.46);
+}
+.main-block {
+    width: 570px;
+    box-sizing: content-box;
+    /*background-color: aquamarine;*/
+}
+.code-block {
+    margin-left: -170px;
+    margin-top: 45px;
+}
+
+/*lists*/
+.skills-list,
+ul {
+    padding-inline-start: 15px;
+}
+li{
+    list-style-type: none;
+    padding-bottom: 5px;
+}
+.skills-list li:before {
+    content: '❯';
+    margin-right: 10px;
+}
+li:before {
+    content: '✔';
+    margin-right: 10px;
+}
+
+/*references*/
+a {
+    color: #009cd5;
+    cursor: pointer;
+}
+
+
+/*FOOTER*/
+.footer {
+    background-color: #454545;
+    width: 100%;
+
+    margin-top: -60px;
+
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.footer__logos {
+    display: flex;
+    align-items: center;
+    padding-right: 60px;
+    margin-bottom: 10px;
+}
+.footer__date-container {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.footer__date {
+    margin-block-start: 0;
+    margin-block-end: 0;
+    font-weight: bold;
+    font-size: 24px;
+}
+.logo_github_img {
+    width: 40px;
+    margin-right: 20px;
+}
+.logo_rsschool_img {
+    width: 80px;
+    margin-right: 20px;
+}
+.logo_youtube_img {
+    width: 43px;
+}
