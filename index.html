@@ -2,38 +2,75 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <link rel="stylesheet" href="style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
     <link rel="stylesheet" href="normalize.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="adaptive.css">
+    <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.9/styles/default.min.css">
+    <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.9/highlight.min.js"></script>
+    <script>hljs.initHighlightingOnLoad();</script>
+
     <title>Kalanda-Alex CV</title>
 </head>
 <body class="body">
 <header class="header">
-    <div class="header__content">
-        <h1 class="h1">Kalanda Aliaksandr</h1>
-        <ul>
-            <li>Phone number: +375(29)2163781</li>
-            <li>Date of birth: 20/11/87</li>
-            <li>Email: gumanist54@gmail.com</li>
-            <li>Social: <a href="http://linkedin.com/in/aliaksandr-kalanda-6251b6204">LinkedIn</a></li>
+    <nav class="navbar">
+        <ul class="navbar__menu">
+            <li><a href="http://linkedin.com/in/aliaksandr-kalanda-6251b6204"
+               class="navbar__btn main-btn ">LinkedIn</a></li>
+            <li><a href="#skills" class="navbar__btn">Skills</a></li>
+            <li><a href="#english" class="navbar__btn">English</a></li>
+            <li><a href="#education" class="navbar__btn">Education</a></li>
+            <li><a href="#code" class="navbar__btn">Code</a></li>
+            <li><a href="#experience" class="navbar__btn">Experience</a></li>
         </ul>
-        <h2 class="h2">Specialization</h2>
-        <span>Front-end Developer</span>
+    </nav>
+    <nav class="header-burger">
+        <div class="burger-menu">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+    </nav>
+    <div class="header__content__container">
+        <div class="header__content">
+            <h1 class="h1">Kalanda Aliaksandr</h1>
+            <ul>
+                <li>Phone number: +375(29)2163781</li>
+                <li>Date of birth: 20/11/87</li>
+                <li>Email: gumanist54@gmail.com</li>
+                <li>Social: <a href="http://linkedin.com/in/aliaksandr-kalanda-6251b6204">LinkedIn</a></li>
+            </ul>
+            <h2 class="h2">Specialization</h2>
+            <h3 class="h3">Front-end Developer</h3>
+        </div>
+        <figure class="avatar-under1000px">
+            <img src="img/my-face.jpg" alt="avatar">
+        </figure>
     </div>
+
 </header>
 <main class="main">
     <aside class="side-block">
         <div class="side-block__container">
-            <figure class="avatar">
-                <img src="http://images.vfl.ru/ii/1614541039/f640f199/33508853.jpg" alt="avatar">
+            <figure class="avatar-over1000px">
+                <img src="img/my-face.jpg" alt="avatar">
             </figure>
-            <h2 class="h2 h2_yellowBG">About me</h2>
+            <h2 class="h2 h2_yellowBG">
+                <span>About me</span>
+                <a href="#"><img src="img/NicePng_button-png_142284.png" alt="home"></a>
+            </h2>
             <p>An aspiring frontend developer who is ready and able to study.
                 My goal at this stage is to gain experience in working with git,
                 javascript by performing educational projects, to deepen my knowledge in this area,
                 and also to improve soft skills. I like studying, I have been studying all my life
                 and I believe that only by studying something new for myself,
                 a person grows as a person.</p>
-            <h2 class="h2 h2_yellowBG">Skills</h2>
+            <h2 class="h2 h2_yellowBG" id="skills">
+                <span>Skills</span>
+                <a href="#"><img src="img/NicePng_button-png_142284.png" alt="home"></a>
+            </h2>
             <ul class="skills-list">
                 <li>JavaScript</li>
                 <li>TypeScript</li>
@@ -45,17 +82,21 @@
                 <li>Redux.js</li>
                 <li>Webpack</li>
             </ul>
-            <h2 class="h2 h2_yellowBG">English</h2>
+            <h2 class="h2 h2_yellowBG" id="english">
+                <span>English</span>
+                <a href="#"><img src="img/NicePng_button-png_142284.png" alt="home"></a>
+            </h2>
             <p>A2 (Elementary)</p>
             <p>2021 june - present: on way to improve my english</p>
         </div>
-
-
-
     </aside>
+
     <section class="main-block">
         <div class="main-block__container">
-            <h2 class="h2 h2_yellowBG">Education</h2>
+            <h2 class="h2 h2_yellowBG" id="education">
+                <span>Education</span>
+                <a href="#"><img src="img/NicePng_button-png_142284.png" alt="home"></a>
+            </h2>
             <ul>
                 <li>2004-2008: Novopolotsk State Polytechnic College (Chemical Technology)</li>
                 <li>2008-2014: Polotsk State University (Chemical Technology)</li>
@@ -69,24 +110,33 @@
                     Cs50 etc)
                 </li>
             </ul>
-            <h2 class="h2 h2_yellowBG">Code examples</h2>
+            <h2 class="h2 h2_yellowBG" id="code">
+                <span>Code examples</span>
+                <a href="#"><img src="img/NicePng_button-png_142284.png" alt="home"></a>
+            </h2>
             <a href="https://github.com/Alex-Kalanda">Link to my GitHub</a>
             <p>Also as an example, the solution of kata on codevars</p>
             <div class="code-block">
-                <pre>
-                    function humanReadable(inputSec) {
-                        let hours, min, sec
-                        hours = Math.floor(inputSec/3600) + ''
-                        hours = !hours[1] ? `0${hours}` : hours
-                        min = Math.floor((inputSec-hours*3600)/60) + ''
-                        min = !min[1] ? `0${min}` : min
-                        sec = inputSec-hours*3600-min*60 + ''
-                        sec = !sec[1] ? `0${sec}` : sec
-                        return `${hours}:${min}:${sec}`
-                    }
+                <pre class="code-block__code ">
+                    <code>
+function humanReadable(inputSec) {
+  let hours, min, sec
+  hours = Math.floor(inputSec/3600) + ''
+  hours = !hours[1] ? `0${hours}` : hours
+  min = Math.floor((inputSec-hours*3600)/60) + ''
+  min = !min[1] ? `0${min}` : min
+  sec = inputSec-hours*3600-min*60 + ''
+  sec = !sec[1] ? `0${sec}` : sec
+  return `${hours}:${min}:${sec}`
+}
+                    </code>
+
                 </pre>
             </div>
-            <h2 class="h2 h2_yellowBG">Experience</h2>
+            <h2 class="h2 h2_yellowBG" id="experience">
+                <span>Experience</span>
+                <a href="#"><img src="img/NicePng_button-png_142284.png" alt="home"></a>
+            </h2>
             <ul>
                 <li>2020 Sep.- Nov.: courses at UNSCHOOLER on html/css, within which I made the 5 layouts.
                     <a href="https://alex-kalanda.github.io/Unschooler_proj/">Example of one of them</a>
@@ -131,11 +181,9 @@
                 </a>
             </div>
         </div>
-
-
-
     </div>
 </footer>
+<script src="script.js"></script>
 
 </body>
 </html>
