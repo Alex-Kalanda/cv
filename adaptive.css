@@ -49,24 +49,64 @@
     .main-block__container {
         padding: 0;
     }
-
-
-
-
-
     .footer{
         width: 100%;
     }
 
 }
+@media (max-width: 767px) {
+    .navbar {
+        margin-left: 0;
+       /* display: none;*/
+    }
+    .header-burger {
+        display: block;
+        position: relative;
+        left: 5%;
+        height: 40px;
+        width: 30px;
+    }
+    .burger-menu span {
+        display: block;
+        width: 30px;
+        height: 3px;
+        background-color: #ffffff;
+        margin-bottom: 8px;
+    }
+    .navbar__menu {
+        width: 96%;
+        position: absolute;
+        top: 60px;
+        left: -100%;
+        display: flex;
+        flex-direction: column;
+        background-color: #454545;
+        transition: all 0.4s;
+    }
+    .navbar__menu li {
+        margin-bottom: 10px;
+        margin-top: 15px;
+        margin-right: 70px;
+    }
+    .navbar__menu.active {
+        left: 0;
+        transition: all 0.4s;
+    }
+
+
+
+}
+
 @media (max-width: 550px) {
+
     .avatar-under1000px{
-        display: none;
+        width: 150px;
     }
     .header__content__container {
         width: 80%;
         margin: 0 10% 0 10%;
         justify-content: left;
+        flex-direction: column-reverse;
     }
     code {
         font-size: 0.85em;

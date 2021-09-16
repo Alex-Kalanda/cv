@@ -7,18 +7,31 @@
     <link rel="stylesheet" href="normalize.css">
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="adaptive.css">
+    <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.9/styles/default.min.css">
+    <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.9/highlight.min.js"></script>
+    <script>hljs.initHighlightingOnLoad();</script>
 
     <title>Kalanda-Alex CV</title>
 </head>
 <body class="body">
 <header class="header">
     <nav class="navbar">
-        <a href="http://linkedin.com/in/aliaksandr-kalanda-6251b6204" class="navbar__btn main-btn ">LinkedIn</a>
-        <a href="#skills" class="navbar__btn">Skills</a>
-        <a href="#english" class="navbar__btn">English</a>
-        <a href="#education" class="navbar__btn">Education</a>
-        <a href="#code" class="navbar__btn">Code</a>
-        <a href="#experience" class="navbar__btn">Experience</a>
+        <ul class="navbar__menu">
+            <li><a href="http://linkedin.com/in/aliaksandr-kalanda-6251b6204"
+               class="navbar__btn main-btn ">LinkedIn</a></li>
+            <li><a href="#skills" class="navbar__btn">Skills</a></li>
+            <li><a href="#english" class="navbar__btn">English</a></li>
+            <li><a href="#education" class="navbar__btn">Education</a></li>
+            <li><a href="#code" class="navbar__btn">Code</a></li>
+            <li><a href="#experience" class="navbar__btn">Experience</a></li>
+        </ul>
+    </nav>
+    <nav class="header-burger">
+        <div class="burger-menu">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
     </nav>
     <div class="header__content__container">
         <div class="header__content">
@@ -104,7 +117,7 @@
             <a href="https://github.com/Alex-Kalanda">Link to my GitHub</a>
             <p>Also as an example, the solution of kata on codevars</p>
             <div class="code-block">
-                <pre class="code-block__code">
+                <pre class="code-block__code ">
                     <code>
 function humanReadable(inputSec) {
   let hours, min, sec
@@ -170,5 +183,7 @@ function humanReadable(inputSec) {
         </div>
     </div>
 </footer>
+<script src="script.js"></script>
+
 </body>
 </html>
