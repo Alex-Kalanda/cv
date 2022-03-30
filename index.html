@@ -8,6 +8,9 @@
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="adaptive.css">
     <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.9/styles/default.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap" rel="stylesheet">
     <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.9/highlight.min.js"></script>
     <script>hljs.initHighlightingOnLoad();</script>
 
@@ -72,21 +75,23 @@
                 <a href="#"><img src="img/NicePng_button-png_142284.png" alt="home"></a>
             </h2>
             <ul class="skills-list">
-                <li>JavaScript</li>
-                <li>TypeScript</li>
+                <li>HTML</li>
+                <li>CSS / SCSS</li>
+                <li>BEM / CSS modules</li>
+                <li>JavaScript / ES6</li>
+                <li>DOM, API, module ES6</li>
                 <li>Git / GitHub</li>
-                <li>HTML 5</li>
-                <li>CSS 3</li>
-                <li>BEM</li>
-                <li>React.js</li>
-                <li>Redux.js</li>
+                <li>npm / yarn</li>
+                <li>TypeScript</li>
                 <li>Webpack</li>
+                <li>React / Next.js</li>
+                <li>Redux</li>
             </ul>
             <h2 class="h2 h2_yellowBG" id="english">
                 <span>English</span>
                 <a href="#"><img src="img/NicePng_button-png_142284.png" alt="home"></a>
             </h2>
-            <p>A2 (Elementary)</p>
+            <p>A2 - B1</p>
             <p>2021 june - present: on way to improve my english</p>
         </div>
     </aside>
@@ -100,53 +105,54 @@
             <ul>
                 <li>2004-2008: Novopolotsk State Polytechnic College (Chemical Technology)</li>
                 <li>2008-2014: Polotsk State University (Chemical Technology)</li>
-                <li>2015-2017: photography, photo retouching, photoshop</li>
-                <li>2017-2020: self-study 3D-modeling, reverse engineering, additive technologies</li>
                 <li>2020 Sep.- Nov.: course HTML+CSS in Unschooler</li>
                 <li>2020 Dec.- 2021 Feb.: course JS +React/Redux in Udemy.com</li>
-                <li>2021 Mar.- Jule: JS/FE2021Q1 in RSschool</li>
-                <li>2021 Sep.- present: JS/FE2021Q3 in RSschool</li>
+                <li>2021 Sep.- Feb.: JS/FE2021Q3 in RSschool</li>
                 <li>2021 Jan. - present: a lot of different seminars ahd lessons on YouTube (Yandex, V. Minin, some of
                     Cs50 etc)
                 </li>
             </ul>
+
+            <h2 class="h2 h2_yellowBG" id="hobbies">
+                <span>Hobbies</span>
+                <a href="#"><img src="img/NicePng_button-png_142284.png" alt="home"></a>
+            </h2>
+            <ul >
+                <li>3D-modeling, reverse engineering, additive technologies</li>
+                <li>Sport, Bicycle</li>
+                <li>Photography, photo retouching, photoshop</li>
+            </ul>
+
             <h2 class="h2 h2_yellowBG" id="code">
                 <span>Code examples</span>
                 <a href="#"><img src="img/NicePng_button-png_142284.png" alt="home"></a>
             </h2>
             <a href="https://github.com/Alex-Kalanda">Link to my GitHub</a>
-            <p>Also as an example, the solution of kata on codevars</p>
-            <div class="code-block">
-                <pre class="code-block__code ">
-                    <code>
-function humanReadable(inputSec) {
-  let hours, min, sec
-  hours = Math.floor(inputSec/3600) + ''
-  hours = !hours[1] ? `0${hours}` : hours
-  min = Math.floor((inputSec-hours*3600)/60) + ''
-  min = !min[1] ? `0${min}` : min
-  sec = inputSec-hours*3600-min*60 + ''
-  sec = !sec[1] ? `0${sec}` : sec
-  return `${hours}:${min}:${sec}`
-}
-                    </code>
 
-                </pre>
-            </div>
             <h2 class="h2 h2_yellowBG" id="experience">
                 <span>Experience</span>
                 <a href="#"><img src="img/NicePng_button-png_142284.png" alt="home"></a>
             </h2>
-            <ul>
-                <li>2020 Sep.- Nov.: courses at UNSCHOOLER on html/css, within which I made the 5 layouts.
-                    <a href="https://alex-kalanda.github.io/Unschooler_proj/">Example of one of them</a>
+            <ul class="experience__list">
+                <li>
+                    <span>Landing (slider, parallax, animation, embedded player, mapbox)</span><br>
+                    <a target="_blank" href="https://rolling-scopes-school.github.io/alex-kalanda-JSFE2021Q3/museum-dom/">Alternative site of Louvre</a>
                 </li>
-                <li>2020 Dec.- present: js + react/redux (with a mentor from Unschooler)
-                    <a href="https://github.com/Alex-Kalanda/Dog_social_net">current work</a>
+                <li>
+                    <span>Copy chrome extension app (weather API, audioplayer, switching lang)</span><br>
+                    <a target="_blank" href="https://rolling-scopes-school.github.io/alex-kalanda-JSFE2021Q3/momentum/">Momentum</a>
                 </li>
-                <li>2021 Mar.- Jule: educational projects JS/FE2021Q1 in RSschool.
-                    <a href="https://rolling-scopes-school.github.io/alex-kalanda-JSFE2021Q1/online-zoo/pages/landing/">for
-                        instance</a>
+                <li>
+                    <span>Game 'Guess paintings and painters' (vanilla javascript, classes, oop, module es6)</span><br>
+                    <a target="_blank" href="https://rolling-scopes-school.github.io/alex-kalanda-JSFE2021Q3/art-quiz/">Art Quiz</a>
+                </li>
+                <li>
+                    <span>Practicing in filters and sorting (typescript, webpack, prettier, eslint, nouislider)</span><br>
+                    <a target="_blank" href="https://rolling-scopes-school.github.io/alex-kalanda-JSFE2021Q3/christmas-task-part2/">Christmas tree</a>
+                </li>
+                <li>
+                    <span>Teamwork. App for learning english words. Backend was ready (vanilla, typescript, webpack, prettier, eslint, sass )</span><br>
+                    <a target="_blank" href="https://alex-kalanda.github.io/rslang/">Rs-lang</a>
                 </li>
             </ul>
         </div>
@@ -156,7 +162,7 @@ function humanReadable(inputSec) {
 <footer class="footer">
     <div class="footer-container">
         <div class="footer__date-container">
-            <p class="footer__date">2021'September</p>
+            <p class="footer__date">2022'March</p>
         </div>
         <div class="footer__logos">
             <div>
@@ -171,13 +177,6 @@ function humanReadable(inputSec) {
                     <img class="logo_rsschool_img"
                          src="https://rs.school/images/rs_school_js.svg"
                          alt="logo-rs">
-                </a>
-            </div>
-            <div>
-                <a href="https://www.youtube.com/">
-                    <img class="logo_youtube_img"
-                         src="https://upload.wikimedia.org/wikipedia/commons/0/09/YouTube_full-color_icon_%282017%29.svg"
-                         alt="logo_youtube">
                 </a>
             </div>
         </div>

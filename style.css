@@ -1,11 +1,11 @@
 .body {
+    font-family: 'Roboto Light', sans-serif;
     box-sizing: content-box;
     max-width: 1000px;
     display: flex;
     flex-direction: column;
     align-items: center;
     margin: auto;
-    font-family: -webkit-pictograph, serif;
 }
 .header {
     width: 100%;
@@ -27,7 +27,7 @@
     border-radius: 10px;
     padding: 5px 23px;
     margin: 2px 4px;
-    background-color: rgba(236,229,59,0.1);
+    background-color: #494949;
 }
 .navbar ul li:before {
     content: '';
@@ -37,10 +37,9 @@
     flex-direction: row;
     align-content: center;
     justify-content: space-around;
-
 }
 .navbar__btn:hover {
-    background-color: rgba(236,229,59,0.25)
+    background-color: #777676;
 }
 .header-burger {
     display: none;
@@ -54,6 +53,7 @@
 }
 .avatar-over1000px img {
     width: 100%;
+    border-radius: 10px;
 }
 .avatar-under1000px {
     display: none;
@@ -71,8 +71,9 @@ figure {
     margin-left: 45px;
     padding: 20px;
     width: 300px;
-    height: 1345px;
+    height: 1365px;
     background-color: #ffc809;
+    border-radius: 10px;
 }
 .side-block {
     z-index: 5;
@@ -124,6 +125,9 @@ li:before {
     content: '✔';
     margin-right: 10px;
 }
+.experience__list li {
+    margin-bottom: 20px;
+}
 
 /*references*/
 a {
@@ -143,12 +147,16 @@ a {
     align-items: center;
     justify-content: flex-end;
 }
-
+.footer-container {
+    padding: 10px 80px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
 .footer__logos {
     display: flex;
     align-items: center;
-    padding-right: 60px;
-    margin-bottom: 10px;
 }
 .footer__date-container {
     margin-top: 10px;
