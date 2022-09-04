@@ -60,7 +60,8 @@ Also as an example, the solution of kata on codewars
 
 + **Landing** (slider, parallax, animation, embedded player, mapbox) : [Alternative site of Louvre](https://rolling-scopes-school.github.io/alex-kalanda-JSFE2021Q3/museum-dom/)  
 + **Copy chrome extension app** (weather API, audioplayer, switching lang) : [Momentum](https://rolling-scopes-school.github.io/alex-kalanda-JSFE2021Q3/momentum/)  
-+ **Teamwork** App for learning english words. Backend was ready (vanilla, typescript, webpack, prettier, eslint, sass ) : [Rs-lang](https://alex-kalanda.github.io/rslang/) 
++ **Teamwork** App for learning english words. Backend was ready (vanilla, typescript, webpack, prettier, eslint, sass ) : [Rs-lang](https://alex-kalanda.github.io/rslang/)
++ **Game** 'Guess paintings and painters' (vanilla javascript, classes, oop, module es6) : [Art Quiz](https://alex-kalanda.github.io/art-quiz/)
 
 ---  
 
