@@ -1,6 +1,6 @@
   # Kalanda Aliaksandr  
 
-*Junior frontend developer*  
+*Frontend developer*  
 
 ---
   ### Personal information  
@@ -14,25 +14,27 @@
 
   ### About me  
 
-An aspiring frontend developer who is ready and able to study. 
-My goal at this stage is to gain experience in working with git, 
-javascript by performing educational projects, to deepen my knowledge in this area, 
-and also to improve soft skills. I like studying, I have been studying all my life  
-and I believe that only by studying something new for myself, 
-a person grows as a person.  
+First of all, I am an engineer, I love and know how to solve various kinds of engineering problems. 
+I like both to create new and useful things, and to repair something broken. 
+I know how to work in a team, adapt flexibly to different people. 
+For 2 years in the front-end, I got a lot of knowledge and practical skills. 
+I also improve my English.
 
 ---  
 
   ### Skils  
   
 + HTML 5
-+ BEM
-+ CSS 3
-+ Git / GitHub
-+ JavaScript
++ CSS 3 / SCSS
++ Git / GitHub / GitFlow
++ BEM / CSS modules
++ DOM / API / module ES6
++ JavaScript / ES6
++ npm / yarn
 + React.js
-+ Redux.js
++ Redux / THUNK / ReduxToolkit
 + Webpack
++ TypeScript
 ---
 
   ### Code examples  
@@ -81,5 +83,5 @@ Example of one of them [UnschoolerProj](https://alex-kalanda.github.io/Unschoole
 
   ### English  
 
-A2 (Elementary)  
+B2 (Elementary)  
 **2021 june - present:** on way to improve my english
