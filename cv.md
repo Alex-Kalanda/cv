@@ -40,7 +40,7 @@ I also improve my English.
   ### Code examples  
 
 [Link to my GitHub - account ](https://github.com/Alex-Kalanda )  
-Also as an example, the solution of kata on codevars  
+Also as an example, the solution of kata on codewars  
 
         function humanReadable(inputSec) {
          let hours, min, sec
@@ -58,11 +58,9 @@ Also as an example, the solution of kata on codevars
    
   ### Experience  
 
-+ **2020 Sep.- Nov.**: courses at UNSCHOOLER on html/css, within which I made the 5 layouts. 
-Example of one of them [UnschoolerProj](https://alex-kalanda.github.io/Unschooler_proj/)  
-+ **2020 Dec.- present:** js + react/redux (with a mentor from Unschooler) 
-[current work](https://github.com/Alex-Kalanda/Dog_social_net)  
-+ **2021 Mar.- Jule:** educational projects JS/FE2021Q1 in RSschool. [For instance](https://rolling-scopes-school.github.io/alex-kalanda-JSFE2021Q1/online-zoo/pages/landing/) 
++ **Landing** (slider, parallax, animation, embedded player, mapbox) : [Alternative site of Louvre](https://rolling-scopes-school.github.io/alex-kalanda-JSFE2021Q3/museum-dom/)  
++ **Copy chrome extension app** (weather API, audioplayer, switching lang) : [Momentum](https://rolling-scopes-school.github.io/alex-kalanda-JSFE2021Q3/momentum/)  
++ **Teamwork** App for learning english words. Backend was ready (vanilla, typescript, webpack, prettier, eslint, sass ) : [Rs-lang](https://alex-kalanda.github.io/rslang/) 
 
 ---  
 
@@ -70,18 +68,15 @@ Example of one of them [UnschoolerProj](https://alex-kalanda.github.io/Unschoole
 
 + **2004-2008:** Novopolotsk State Polytechnic College (Chemical Technology)
 + **2008-2014:** Polotsk State University (Chemical Technology)
-+ **2015-2017:** photography, photo retouching, photoshop
-+ **2017-2020:** self-study 3D-modeling, reverse engineering, additive technologies
-+ **2020 Sep.- Nov.:** course HTML+CSS in Unschooler
-+ **2020 Dec.- 2021 Feb.:** course JS +React/Redux in Udemy.com
-+ **2021 Mar.- Jule:** JS/FE2021Q1 in RSschool
-+ **2021 Sep.- present:** JS/FE2021Q3 in RSschool
-+ **2021 Jan. - present:** a lot of different seminars ahd lessons on YouTube (Yandex, V. Minin, some of Cs50 etc)
-
++ **2020 Sep.- Nov.:** Course HTML+CSS in Unschooler
++ **2020 Dec.- 2021 Feb.:** Course JS +React/Redux in Udemy.com
++ **2021 Sep.- Feb.:** JS/FE2021Q3 in RSschool
++ **2021 Jan. - present:** a lot of different seminars ahd lessons on YouTube (Yandex, V.Minin, S0er, some of Cs50 etc)
++ **2022 Sep.:** JS/FE2021Q3 in RSschool again)
 
 ---  
 
   ### English  
 
-B2 (Elementary)  
+B1 (Intermediate)  
 **2021 june - present:** on way to improve my english
