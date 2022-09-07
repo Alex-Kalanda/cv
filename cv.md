@@ -71,9 +71,9 @@ Also as an example, the solution of kata on codewars
 + **2008-2014:** Polotsk State University (Chemical Technology)
 + **2020 Sep.- Nov.:** Course HTML+CSS in Unschooler
 + **2020 Dec.- 2021 Feb.:** Course JS +React/Redux in Udemy.com
-+ **2021 Sep.- Feb.:** JS/FE2021Q3 in RSschool
++ **2021 Sep.- 2022 Feb.:** JS/FE2021Q3 in RSschool
 + **2021 Jan. - present:** a lot of different seminars ahd lessons on YouTube (Yandex, V.Minin, S0er, some of Cs50 etc)
-+ **2022 Sep.:** JS/FE2021Q3 in RSschool again)
++ **2022 Sep.:** JS/FE2022Q3 in RSschool again)
 
 ---  
 
