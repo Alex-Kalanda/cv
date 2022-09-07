@@ -54,6 +54,156 @@
     </div>
 </header>
 
+<main class="main">
+    <aside class="side-block">
+        <div class="side-block__container">
+            <figure class="avatar-over1000px">
+                <img src="img/avatar.jpg" alt="avatar">
+            </figure>
+            <h2 class="h2 h2_yellowBG">
+                <span>About me</span>
+                <a href="#"><img src="img/NicePng_button-png_142284.png" alt="home"></a>
+            </h2>
+            <p>First of all, I am an engineer, I love and know how to solve various kinds of engineering problems.
+                I like both to create new and useful things, and to repair something broken.
+                I know how to work in a team, adapt flexibly to different people.
+                For 2 years in the front-end, I got a lot of knowledge and practical skills.
+                I also improve my English.</p>
+            <h2 class="h2 h2_yellowBG" id="skills">
+                <span>Skills</span>
+                <a href="#"><img src="img/NicePng_button-png_142284.png" alt="home"></a>
+            </h2>
+            <ul class="skills-list">
+                <li>HTML</li>
+                <li>CSS 3 / SCSS</li>
+                <li>BEM / CSS modules</li>
+                <li>JavaScript / ES6</li>
+                <li>DOM, API, module ES6</li>
+                <li>Git / GitHub</li>
+                <li>npm / yarn</li>
+                <li>TypeScript</li>
+                <li>Webpack</li>
+                <li>React.js / Next.js</li>
+                <li>Redux / THUNK / ReduxToolkit</li>
+            </ul>
+            <h2 class="h2 h2_yellowBG" id="english">
+                <span>English</span>
+                <a href="#"><img src="img/NicePng_button-png_142284.png" alt="home"></a>
+            </h2>
+            <p>B2 (Upper Intermediate)</p>
+            <a href="https://www.efset.org/cert/AEXUUA">EF SET</a>
+        </div>
+        <!--</section>
+        <section>
+            <h2>Experience</h2>
+            <ul>
+                <li>Art Quiz. Game to learning painters and paintings.
+                    <a href="https://alex-kalanda.github.io/art-quiz/">Play</a>
+                </li>
+                <li>RSLang. SPA without frameworks for training and remember english words.
+                    <a href="https://alex-kalanda.github.io/rslang/">TRY</a></li>
+            </ul>
+        </section>
+        <section class="english-block">
+            <h2>English</h2>
+            <span>B2 (Upper Intermediate)</span>
+            <a href="https://www.efset.org/cert/AEXUUA">EF SET</a>
+        </section>
+        <footer class="footer">
+            <div>
+                <p><b>September 2022</b></p>-->
+    </aside>
+
+    <section class="main-block">
+        <div class="main-block__container">
+            <h2 class="h2 h2_yellowBG" id="education">
+                <span>Education</span>
+                <a href="#"><img src="img/NicePng_button-png_142284.png" alt="home"></a>
+            </h2>
+            <ul>
+                <li>2004-2008: Novopolotsk State Polytechnic College (Chemical Technology)</li>
+                <li>2008-2014: Polotsk State University (Chemical Technology)</li>
+                <li>2020 Sep.- Nov.: course HTML+CSS in Unschooler</li>
+                <li>2020 Dec.- 2021 Feb.: course JS +React/Redux in Udemy.com</li>
+                <li>2021 Mar.- Jule: JS/FE2021Q1 in RSschool</li>
+                <li>2021 Sep.- 2022 Feb.: JS/FE2021Q3 in RSschool</li>
+                <li>2022 Feb. - nowadays: keep learning (React, Redux, Typescript)</li>
+                <li>2022 Sep.: JS/FE2022Q3 in RSschool again)</li>
+            </ul>
+
+            <h2 class="h2 h2_yellowBG" id="hobbies">
+                <span>Hobbies</span>
+                <a href="#"><img src="img/NicePng_button-png_142284.png" alt="home"></a>
+            </h2>
+            <ul >
+                <li>3D-modeling, reverse engineering, additive technologies</li>
+                <li>Sport, bicycle</li>
+                <li>Photography, photo retouching, photoshop</li>
+                <li>Trading, poker</li>
+            </ul>
+
+            <h2 class="h2 h2_yellowBG" id="code">
+                <span>Code examples</span>
+                <a href="#"><img src="img/NicePng_button-png_142284.png" alt="home"></a>
+            </h2>
+            <a href="https://github.com/Alex-Kalanda">Link to my GitHub</a>
+            <p>Also as an example, the solution of kata on codewars</p>
+            <img src="https://www.codewars.com/users/Alex-Kalanda/badges/large" alt="codewars badge">
+            <div class="code-block">
+                <pre class="code-block__code ">
+                    <code>
+function humanReadable(inputSec) {
+  let hours, min, sec
+  hours = Math.floor(inputSec/3600) + ''
+  hours = !hours[1] ? `0${hours}` : hours
+  min = Math.floor((inputSec-hours*3600)/60) + ''
+  min = !min[1] ? `0${min}` : min
+  sec = inputSec-hours*3600-min*60 + ''
+  sec = !sec[1] ? `0${sec}` : sec
+  return `${hours}:${min}:${sec}`
+}
+                    </code>
+                </pre>
+            </div>
+            <h2 class="h2 h2_yellowBG" id="experience">
+                <span>Experience</span>
+                <a href="#"><img src="img/NicePng_button-png_142284.png" alt="home"></a>
+            </h2>
+            <ul class="experience__list">
+                <li>
+                    <span>Landing (slider, parallax, animation, embedded player, mapbox)</span><br>
+                    <a target="_blank" href="https://rolling-scopes-school.github.io/alex-kalanda-JSFE2021Q3/museum-dom/">
+                        Alternative site of Louvre
+                    </a>
+                </li>
+                <li>
+                    <span>Copy chrome extension app (weather API, audioplayer, switching lang)</span><br>
+                    <a target="_blank" href="https://rolling-scopes-school.github.io/alex-kalanda-JSFE2021Q3/momentum/">
+                        Momentum
+                    </a>
+                </li>
+                <li>
+                    <span>Game 'Guess paintings and painters' (vanilla javascript, classes, oop, module es6)</span><br>
+                    <a target="_blank" href="https://alex-kalanda.github.io/art-quiz/">
+                        Art Quiz
+                    </a>
+                </li>
+                <li>
+                    <span>Practicing in filters and sorting (typescript, webpack, prettier, eslint, nouislider)</span><br>
+                    <a target="_blank" href="https://rolling-scopes-school.github.io/alex-kalanda-JSFE2021Q3/christmas-task-part2/">
+                        Christmas tree
+                    </a>
+                </li>
+                <li>
+                    <span>Teamwork. App for learning english words. Backend was ready
+                        (vanilla, typescript, webpack, prettier, eslint, sass )</span><br>
+                    <a target="_blank" href="https://alex-kalanda.github.io/rslang/">Rs-lang</a>
+                </li>
+            </ul>
+        </div>
+
+    </section>
+</main>
 
 <footer class="footer">
     <div class="footer-container">
