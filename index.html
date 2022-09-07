@@ -46,7 +46,7 @@
                 <li>Social: <a href="http://linkedin.com/in/aliaksandr-kalanda-6251b6204">LinkedIn</a></li>
             </ul>
             <h2 class="h2">Specialization</h2>
-            <h3 class="h3">Front-end Developer</h3>
+            <h3 class="h3">Frontend Developer</h3>
         </div>
         <figure class="avatar-under1000px">
             <img src="img/avatar.jpg" alt="avatar">
@@ -90,9 +90,28 @@
                 <span>English</span>
                 <a href="#"><img src="img/NicePng_button-png_142284.png" alt="home"></a>
             </h2>
-            <p>B1</p>
-            <p>2021 june - present: on way to improve my english</p>
+            <p>B2 (Upper Intermediate)</p>
+            <a href="https://www.efset.org/cert/AEXUUA">EF SET</a>
         </div>
+    <!--</section>
+    <section>
+        <h2>Experience</h2>
+        <ul>
+            <li>Art Quiz. Game to learning painters and paintings.
+                <a href="https://alex-kalanda.github.io/art-quiz/">Play</a>
+            </li>
+            <li>RSLang. SPA without frameworks for training and remember english words.
+                <a href="https://alex-kalanda.github.io/rslang/">TRY</a></li>
+        </ul>
+    </section>
+    <section class="english-block">
+        <h2>English</h2>
+        <span>B2 (Upper Intermediate)</span>
+        <a href="https://www.efset.org/cert/AEXUUA">EF SET</a>
+    </section>
+    <footer class="footer">
+        <div>
+            <p><b>September 2022</b></p>-->
     </aside>
 
     <section class="main-block">
@@ -106,10 +125,9 @@
                 <li>2008-2014: Polotsk State University (Chemical Technology)</li>
                 <li>2020 Sep.- Nov.: course HTML+CSS in Unschooler</li>
                 <li>2020 Dec.- 2021 Feb.: course JS +React/Redux in Udemy.com</li>
+                <li>2021 Mar.- Jule: JS/FE2021Q1 in RSschool</li>
                 <li>2021 Sep.- 2022 Feb.: JS/FE2021Q3 in RSschool</li>
-                <li>2021 Jan. - present: a lot of different seminars ahd lessons on YouTube (Yandex, S0er, АйТи Синяк,
-                    Дмитрий Лаврик, Timur Shemsedinov, some of Cs50 etc)
-                </li>
+                <li>2022 Feb. - nowadays: keep learning (React, Redux, Typescript)
                 <li>2022 Sep.: JS/FE2022Q3 in RSschool again)</li>
             </ul>
 
@@ -129,7 +147,24 @@
                 <a href="#"><img src="img/NicePng_button-png_142284.png" alt="home"></a>
             </h2>
             <a href="https://github.com/Alex-Kalanda">Link to my GitHub</a>
-
+            <p>Also as an example, the solution of kata on codewars</p>
+            <img src="https://www.codewars.com/users/Alex-Kalanda/badges/large" alt="codewars badge">
+            <div class="code-block">
+                <pre class="code-block__code ">
+                    <code>
+function humanReadable(inputSec) {
+  let hours, min, sec
+  hours = Math.floor(inputSec/3600) + ''
+  hours = !hours[1] ? `0${hours}` : hours
+  min = Math.floor((inputSec-hours*3600)/60) + ''
+  min = !min[1] ? `0${min}` : min
+  sec = inputSec-hours*3600-min*60 + ''
+  sec = !sec[1] ? `0${sec}` : sec
+  return `${hours}:${min}:${sec}`
+}
+                    </code>
+                </pre>
+            </div>
             <h2 class="h2 h2_yellowBG" id="experience">
                 <span>Experience</span>
                 <a href="#"><img src="img/NicePng_button-png_142284.png" alt="home"></a>
@@ -154,7 +189,6 @@
                 <li>
                     <span>Teamwork. App for learning english words. Backend was ready (vanilla, typescript, webpack, prettier, eslint, sass )</span><br>
                     <a target="_blank" href="https://alex-kalanda.github.io/rslang/">Rs-lang</a>
-                </li>
             </ul>
         </div>
 
