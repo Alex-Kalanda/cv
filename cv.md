@@ -1,6 +1,6 @@
   # Kalanda Aliaksandr  
 
-*Junior frontend developer*  
+*Frontend developer*  
 
 ---
   ### Personal information  
@@ -14,31 +14,33 @@
 
   ### About me  
 
-An aspiring frontend developer who is ready and able to study. 
-My goal at this stage is to gain experience in working with git, 
-javascript by performing educational projects, to deepen my knowledge in this area, 
-and also to improve soft skills. I like studying, I have been studying all my life  
-and I believe that only by studying something new for myself, 
-a person grows as a person.  
+First of all, I am an engineer, I love and know how to solve various kinds of engineering problems. 
+I like both to create new and useful things, and to repair something broken. 
+I know how to work in a team, adapt flexibly to different people. 
+For 2 years in the front-end, I got a lot of knowledge and practical skills. 
+I also improve my English.
 
 ---  
 
   ### Skils  
   
 + HTML 5
-+ BEM
-+ CSS 3
-+ Git / GitHub
-+ JavaScript
++ CSS 3 / SCSS
++ Git / GitHub / GitFlow
++ BEM / CSS modules
++ DOM / API / module ES6
++ JavaScript / ES6
++ npm / yarn
 + React.js
-+ Redux.js
++ Redux / THUNK / ReduxToolkit
 + Webpack
++ TypeScript
 ---
 
   ### Code examples  
 
 [Link to my GitHub - account ](https://github.com/Alex-Kalanda )  
-Also as an example, the solution of kata on codevars  
+Also as an example, the solution of kata on codewars  
 
         function humanReadable(inputSec) {
          let hours, min, sec
@@ -56,11 +58,10 @@ Also as an example, the solution of kata on codevars
    
   ### Experience  
 
-+ **2020 Sep.- Nov.**: courses at UNSCHOOLER on html/css, within which I made the 5 layouts. 
-Example of one of them [UnschoolerProj](https://alex-kalanda.github.io/Unschooler_proj/)  
-+ **2020 Dec.- present:** js + react/redux (with a mentor from Unschooler) 
-[current work](https://github.com/Alex-Kalanda/Dog_social_net)  
-+ **2021 Mar.- Jule:** educational projects JS/FE2021Q1 in RSschool. [For instance](https://rolling-scopes-school.github.io/alex-kalanda-JSFE2021Q1/online-zoo/pages/landing/) 
++ **Landing** (slider, parallax, animation, embedded player, mapbox) : [Alternative site of Louvre](https://rolling-scopes-school.github.io/alex-kalanda-JSFE2021Q3/museum-dom/)  
++ **Copy chrome extension app** (weather API, audioplayer, switching lang) : [Momentum](https://rolling-scopes-school.github.io/alex-kalanda-JSFE2021Q3/momentum/)  
++ **Teamwork** App for learning english words. Backend was ready (vanilla, typescript, webpack, prettier, eslint, sass ) : [Rs-lang](https://alex-kalanda.github.io/rslang/)
++ **Game** 'Guess paintings and painters' (vanilla javascript, classes, oop, module es6) : [Art Quiz](https://alex-kalanda.github.io/art-quiz/)
 
 ---  
 
@@ -68,18 +69,15 @@ Example of one of them [UnschoolerProj](https://alex-kalanda.github.io/Unschoole
 
 + **2004-2008:** Novopolotsk State Polytechnic College (Chemical Technology)
 + **2008-2014:** Polotsk State University (Chemical Technology)
-+ **2015-2017:** photography, photo retouching, photoshop
-+ **2017-2020:** self-study 3D-modeling, reverse engineering, additive technologies
-+ **2020 Sep.- Nov.:** course HTML+CSS in Unschooler
-+ **2020 Dec.- 2021 Feb.:** course JS +React/Redux in Udemy.com
-+ **2021 Mar.- Jule:** JS/FE2021Q1 in RSschool
-+ **2021 Sep.- present:** JS/FE2021Q3 in RSschool
-+ **2021 Jan. - present:** a lot of different seminars ahd lessons on YouTube (Yandex, V. Minin, some of Cs50 etc)
-
++ **2020 Sep.- Nov.:** Course HTML+CSS in Unschooler
++ **2020 Dec.- 2021 Feb.:** Course JS +React/Redux in Udemy.com
++ **2021 Sep.- 2022 Feb.:** JS/FE2021Q3 in RSschool
++ **2021 Jan. - present:** a lot of different seminars ahd lessons on YouTube (Yandex, V.Minin, S0er, some of Cs50 etc)
++ **2022 Sep.:** JS/FE2022Q3 in RSschool again)
 
 ---  
 
   ### English  
 
-A2 (Elementary)  
+B1 (Intermediate)  
 **2021 june - present:** on way to improve my english
